@@ -1,0 +1,49 @@
+/* open-sans-regular - latin */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		url('../../fonts/open-sans-v20-latin-regular.woff2') format('woff2'),
+		url('../../fonts/open-sans-v20-		ular.woff') format('woff');
+}
+
+/* open-sans-600 - latin */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: local(''),
+		url('../../fonts/open-sans-v20-latin-600.woff2') format('woff2'),
+		url('../../fonts/open-sans-v20-		.woff') format('woff');
+}
+
+/* open-sans-700 - latin */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local(''),
+		url('../../fonts/open-sans-v20-latin-700.woff2') format('woff2'),
+		url('../../fonts/open-sans-v20-		.woff') format('woff');
+}
+
+/* reem-kufi-regular - latin */
+@font-face {
+	font-family: 'Reem Kufi';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		url('../fonts/reem-kufi-v11-latin-regular.woff2') format('woff2'),
+		url('../fonts/reem-kufi-v11-latin		r.woff') format('woff');
+}
+
+/* reem-kufi-700 - latin */
+@font-face {
+	font-family: 'Reem Kufi';
+	font-style: normal;
+	font-weight: 700;
+	src: local(''),
+		url('../fonts/reem-kufi-v11-latin-700.woff2') format('woff2'),
+		url('../fonts/reem-kufi-v11-latin		ff') format('woff');
+}

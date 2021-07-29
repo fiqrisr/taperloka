@@ -1,0 +1,25 @@
+{
+	"name": "taperloka",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"clean": "rm -rf _site",
+		"build": "yarn clean && eleventy && yarn run sass --no-source-map",
+		"start": "concurrently 'eleventy --serve' 'yarn sass:watch'",
+		"sass": "sass src/styles:_site -s compressed",
+		"sass:watch": "yarn sass && yarn sass -w"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@11ty/eleventy": "^0.12.1",
+		"concurrently": "^6.2.0",
+		"prettier": "^2.3.2",
+		"sass": "^1.36.0",
+		"stylelint": "^13.13.1",
+		"stylelint-config-sass-guidelines": "^8.0.0",
+		"stylelint-order": "^4.1.0"
+	}
+}
